@@ -30,7 +30,7 @@ public class Reservation {
     if (!isConfirmed) {
       System.out.println("Unable to confirm reservation, please contact restaurant.");
     } else {
-      System.out.println("Please enjoy your meal!" + lastName);
+      System.out.println("Please enjoy your meal " + lastName + "!");
     }
   }
   
